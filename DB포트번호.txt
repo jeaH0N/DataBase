@@ -1,0 +1,19 @@
+오라클 시스템 패스워드 : !ruddy0518
+confirm 패스워드 : !ruddy0518
+
+오라클 xe 경로 : c/oraclexe
+오라클 홈 경로 : c/app/oracle/product/11.2.0/server
+오라클 베이스 경로 : c/oracle
+오라클 데이터베이스 포트 리스너 번호 : 1521
+오라클 서비스 트렌스 포트 번호 : 2030
+오라클 HTTP 리스너 포트 번호 : 8080 
+채
+conn / as sysdba 이게 안되면 conn system 입력후 오라클 시스템 패스워드 입력
+alter user hr account unlock identified by hr;
+
+conn hr
+비밀번호 : hr
+select count(*) from employees;입력
+107나오면 끝
+
+
